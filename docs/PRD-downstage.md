@@ -64,7 +64,7 @@ One decision. One reason. One row.
 
 Not prose. Not a paragraph with a reason embedded in it. A row.
 
-That's scannable because it isn't just text. It's table.
+That's scannable because it isn't just text. It's a table.
 Twenty rows and you know what happened. If a row looks wrong, expand it.
 
 Each reason has to fit on one line. If it's longer, truncate it and 

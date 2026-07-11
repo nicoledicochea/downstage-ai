@@ -46,7 +46,7 @@ One decision. One reason. One row.
 | config loading      | fails loud instead of defaulting; a silent default caused the bug being fixed               |
 
 
-That's scannable because it isn't just text. It's table.
+That's scannable because it isn't just text. It's a table.
 Twenty rows and you know what happened. If a row looks wrong, expand it.
 
 **The rendering is the easy part. The hard part is deciding what counts as a reason and what's just noise to drop.**
