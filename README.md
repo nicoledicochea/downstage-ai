@@ -60,8 +60,11 @@ A reason is more falsifiable than code.
 
 Code that's wrong looks like code. A reason that's wrong often *reads*
 wrong — because language carries claims you can check against what you know.
-*"I used a set here because order doesn't matter"* is a testable assertion in
-a way that `new Set()` never is.
+
+The code `cache.set(key, val)` just tells you caching happens. The reason 
+*'cached this because the value never changes after startup'* is a claim you 
+can check — and if the value does change, you've caught a real bug that 
+the code alone would've hidden.
 
 This works even if the reason was reconstructed after the fact rather than
 being what the model actually computed. The reason doesn't have to be true.
