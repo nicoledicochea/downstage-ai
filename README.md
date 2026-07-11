@@ -12,9 +12,9 @@
   
 
 
-*Step 2 of four. Companion to* `[aside](https://github.com/nicoledicochea/agent-aside)`*,*
-`[co-sign](https://github.com/nicoledicochea/cosign-code-audit)`*, and*
-`[prologue-pr](https://github.com/nicoledicochea/prologue-pr)`*.*
+*Step 2 of four. Companion to* [`aside`](https://github.com/nicoledicochea/agent-aside)*,*
+[`co-sign`](https://github.com/nicoledicochea/cosign-code-audit)*, and*
+[`prologue-pr`](https://github.com/nicoledicochea/prologue-pr)*.*
 
   
 
@@ -77,16 +77,16 @@ for intuition to catch on.
 ## What this is not
 
 **Not ranking.** Everything gets equal weight. Deciding what deserves a close
-look is `[co-sign](https://github.com/nicoledicochea/cosign-code-audit)`'s
+look is [`co-sign`](https://github.com/nicoledicochea/cosign-code-audit)'s
 job — it has mechanical signals (blast radius, missing coverage) that
 downstage doesn't.
 
 **Not a capture tool.** This reads reasoning that already exists. Forcing
-reasoning to exist where it doesn't is `[aside](https://github.com/nicoledicochea/agent-aside)`'s job.
+reasoning to exist where it doesn't is [`aside`](https://github.com/nicoledicochea/agent-aside)'s job.
 
 **Not a PR description.** The reader is the person who ran the session. Rows
 can be terse to the point of cryptic. Writing for a cold reviewer is
-`[prologue-pr](https://github.com/nicoledicochea/prologue-pr)`'s job.
+[`prologue-pr`](https://github.com/nicoledicochea/prologue-pr)'s job.
 
 **Not an observability tool.** Langfuse, LangSmith, Braintrust and the rest
 are debuggers — span trees for the person who *built* the agent. This is for
@@ -127,10 +127,10 @@ Four projects, one thesis:
 
 |     |                                                                  |                                                              |
 | --- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
-| 1   | `[aside](https://github.com/nicoledicochea/agent-aside)`         | **Preserve** reasoning during execution                      |
+| 1   | [`aside`](https://github.com/nicoledicochea/agent-aside)         | **Preserve** reasoning during execution                      |
 | 2   | **downstage**                                                    | **Surface** it — scannable, everything, no claims            |
-| 3   | `[co-sign](https://github.com/nicoledicochea/cosign-code-audit)` | **Anchor attention** — what needs a close look               |
-| 4   | `[prologue-pr](https://github.com/nicoledicochea/prologue-pr)`   | **Hand off** — a PR description for someone who wasn't there |
+| 3   | [`co-sign`](https://github.com/nicoledicochea/cosign-code-audit) | **Anchor attention** — what needs a close look               |
+| 4   | [`prologue-pr`](https://github.com/nicoledicochea/prologue-pr)   | **Hand off** — a PR description for someone who wasn't there |
 
 
 `downstage` surfaces everything and ranks nothing. `co-sign` is what decides where to look. They compose: a thin, vague reason on a high-blast-radius change is a stronger flag than either signal alone.
@@ -142,4 +142,4 @@ Four projects, one thesis:
 
 Prototype / concept stage. Not yet built.
 
-Full spec in `[PRD-downstage.md](./docs/PRD-downstage.md)`.
+Full spec in [`PRD-downstage.md`](./docs/PRD-downstage.md).

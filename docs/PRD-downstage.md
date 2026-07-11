@@ -84,20 +84,20 @@ the confidence statements. Discarding is the product.
 
 - **Not ranking.** Everything gets equal visual weight. This is division of
 labor, not a principle — deciding what deserves attention is
-`[co-sign](https://github.com/nicoledicochea/cosign-code-audit)`'s job, and
+[`co-sign`](https://github.com/nicoledicochea/cosign-code-audit)'s job, and
 it does that with mechanical signals (blast radius, missing coverage,
 pattern mismatch) that downstage has no access to. downstage surfaces
 everything; co-sign anchors attention within it.
 - **Not a capture mechanism.** This reads reasoning that already exists in
 agent output. Forcing reasoning to exist where it doesn't is
-`[aside](https://github.com/nicoledicochea/agent-aside)`'s job.
+[`aside`](https://github.com/nicoledicochea/agent-aside)'s job.
 - **Not a mental-model diagram.** Considered and dropped: nodes-and-edges
 graphs are a heavier artifact than the problem needs, and the problem isn't
 that decisions lack structure — it's that reasons are buried in prose.
 - **Not a PR description generator.** The reader is the person who ran the
 session and was there. Rows can be terse to the point of being cryptic to
 anyone else. Writing for a cold reviewer is a much higher bar, and it's
-`[prologue-pr](https://github.com/nicoledicochea/prologue-pr)`'s job — it
+[`prologue-pr`](https://github.com/nicoledicochea/prologue-pr)'s job — it
 consumes the same extracted rows and writes for someone who wasn't there.
 - **Not verification.** Nothing here checks whether a reason is true. It makes
 reasons visible enough that a human's intuition has something to catch on.
@@ -128,10 +128,10 @@ from an agent's head into a human's.
 
 |     | Project                                                          | Job                                                                |
 | --- | ---------------------------------------------------------------- | ------------------------------------------------------------------ |
-| 1   | `[aside](https://github.com/nicoledicochea/agent-aside)`         | **Preserve** reasoning during execution — force it to exist        |
+| 1   | [`aside`](https://github.com/nicoledicochea/agent-aside)         | **Preserve** reasoning during execution — force it to exist        |
 | 2   | **downstage**                                                    | **Surface** it — extract, discard the rest, make it scannable      |
-| 3   | `[co-sign](https://github.com/nicoledicochea/cosign-code-audit)` | **Anchor attention** — flag what actually needs a close look       |
-| 4   | `[prologue-pr](https://github.com/nicoledicochea/prologue-pr)`   | **Hand off** — write a PR description for someone who wasn't there |
+| 3   | [`co-sign`](https://github.com/nicoledicochea/cosign-code-audit) | **Anchor attention** — flag what actually needs a close look       |
+| 4   | [`prologue-pr`](https://github.com/nicoledicochea/prologue-pr)   | **Hand off** — write a PR description for someone who wasn't there |
 
 
 Deliberately separate repos. Different mechanisms, different install stories,
